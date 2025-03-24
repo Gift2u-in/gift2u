@@ -343,7 +343,7 @@
 
                 let productHTML = `
                 <div class="product-card">
-                    <img src="${product.img}" alt="${product.name}" onclick="openModal('img/${product.img}')" style="cursor: pointer;">
+                    <img src="${product.img}" alt="${product.name}" onclick="openModal('${product.img}')" style="cursor: pointer;">
                     <h3>${product.name}</h3>
                     <h4><strong>Price: ${product.price}</strong></h4>
                     <p><strong>Product Code:</strong> ${productCode}</p>
